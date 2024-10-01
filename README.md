@@ -12,16 +12,18 @@ Welcome to the SFDX CLI Security Best Practices wiki!
 
 ### Permission Sets
 
-- Create a `Salesforce CLI` perm set for the app
+- Create a `Salesforce CLI Access` permission set for the app
   - Assign Users to the permission Set
 
 ### Connected Apps
-- Install the app
+- Install the Salesforce CLI Connected App
+  - Goto Step > Connected Apps OAuth Usage
+  - Click Install on the Salesforce CLI Coonect App row (this will enable us to better control use of the App
 - Click `Edit Policies`
 - `Permitted users` = `Admin approved users are pre-authorized`
 - Session Policies: High Assurance session required
   - Raise the session level to high assurance
-- Add the `Salesforce CLI` permission set to the App
+- Add the `Salesforce CLI Access` permission set to the App
 
 ### Setup: Session Settings
 
