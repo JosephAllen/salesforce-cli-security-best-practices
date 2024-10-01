@@ -18,7 +18,7 @@ Welcome to the SFDX CLI Security Best Practices wiki!
 ### Connected Apps
 - Install the Salesforce CLI Connected App
   - Goto Step > Connected Apps OAuth Usage
-  - Click Install on the Salesforce CLI Coonect App row (this will enable us to better control use of the App
+  - Click _Install_ on the Salesforce CLI _Connected App_ row (this will enable us to better control use of the App)
 - Click `Edit Policies`
 - `Permitted users` = `Admin approved users are pre-authorized`
 - Session Policies: High Assurance session required
