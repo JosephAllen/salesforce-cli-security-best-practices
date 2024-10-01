@@ -18,12 +18,15 @@ Welcome to the SFDX CLI Security Best Practices wiki!
 ### Connected Apps
 - Install the Salesforce CLI Connected App
   - Goto Step > Connected Apps OAuth Usage
-  - Click _Install_ on the Salesforce CLI _Connected App_ row (this will enable us to better control use of the App)
+  - Click _Install_ on the Salesforce CLI _Connected App_ row
+    - (this will enable us to better control use of the App)
 - Click `Edit Policies`
 - `Permitted users` = `Admin approved users are pre-authorized`
-- `Refresh Token Policy` = `Expire refresh token after` (this will require developers to login at least once per day)
+- `Refresh Token Policy` = `Expire refresh token after`
+  - (this will require developers to login at least once per day)
 - Session Policies: High Assurance session required
-  - Raise the session level to high assurance (this will enforce Multi-factor authentication for the CLI)
+  - Raise the session level to high assurance
+    - (this will enforce Multi-factor authentication for the CLI)
 - Add the `Salesforce CLI Access` permission set to the App
 
 ### Setup: Session Settings
